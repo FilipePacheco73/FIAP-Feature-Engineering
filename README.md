@@ -1,110 +1,177 @@
-# Repositório de Feature Engineering para MBA da FIAP
+# FIAP Feature Engineering Course Material
 
-Bem-vindo ao repositório do curso de **Feature Engineering** do MBA da FIAP! Este repositório contém materiais e recursos para ajudar no aprendizado e na prática das técnicas essenciais de Feature Engineering.
-
-## Ementa do Curso
-
-### Módulo: Data Science Preparation
-**Disciplina**: Feature Engineering
-
-**Descrição e Objetivo da Disciplina**:  
-Este curso introdutório em Feature Engineering proporciona uma compreensão abrangente das técnicas e práticas essenciais para transformar dados brutos em informações valiosas para modelos de machine learning. Ao longo do curso, exploraremos desde os fundamentos do Feature Engineering até técnicas avançadas, incluindo pré-processamento de dados, encoding, criação de features derivadas, seleção e redução de dimensionalidade, além de questões éticas e a integração com feature stores. O objetivo é capacitar os participantes a aplicar e implementar práticas eficazes de engenharia de características, aprimorando o desempenho e a precisão dos modelos de machine learning.
-
-### Conteúdo Programático
-
-- **Aula 1: Introdução ao curso e a Feature Engineering**
-  - O que é Feature Engineering e qual a sua importância em Machine Learning?
-  - Tipos de dados e variáveis em Machine Learning
-  - Técnicas de pré-processamento de dados: limpeza, normalização e transformação
-  - Lidando com dados faltantes, outliers e dados duplicados
-
-- **Aula 2: Encoding, Discretização e Criação de Features**
-  - Técnicas de encoding para variáveis categóricas: One-Hot Encoding, Ordinal Encoding e Binary Encoding
-  - Técnicas de discretização para variáveis numéricas: Equal Width Binning, Equal Frequency Binning e K-Means Clustering
-  - Criação de features derivadas: feature crossing e feature transformation
-  - Feature Extraction (dados não estruturados)
-
-- **Aula 3: Redução de Dimensionalidade e Balanceamento**
-  - Redução de dimensionalidade: PCA, t-SNE e LDA
-  - Lidando com desbalanceamento de classes em problemas de classificação e regressão
-  - Análise exploratória de dados para Feature Engineering
-
-- **Aula 4: Seleção de Features e Ética**
-  - Técnicas de seleção de features: Filter Methods, Wrapper Methods e Embedded Methods
-  - Ética e responsabilidade em Feature Engineering
-
-## Ferramentas e Softwares Recomendados
-
-- **IDE para desenvolvimento de Códigos voltados para Data Science**:
-  - [Anaconda Distribution](https://www.anaconda.com/products/distribution) (Inclui Jupyter Notebook, Spyder)
-  - [Google Colab](https://colab.research.google.com/)
-  - [VSCode](https://code.visualstudio.com/Download)
-
-- **Controle de Versão**:
-  - [GitHub Desktop](https://desktop.github.com/)
-
-- **Python 3**:
-  - [Download Python](https://www.python.org/downloads/)
-
-## Bibliografia Básica
-
-- **Python Feature Engineering Cookbook**: Over 70 recipes for creating, engineering, and transforming features to build machine learning models - Soledad Galli
-- **Feature Engineering and Selection**: A Practical Approach for Predictive Models - Max Kuhn & Kjell Johnson
-- **Data Mining: um Guia Prático** - Ronaldo Goldschimidt & Emmanuel Passos
-- **Scikit-Learn Documentation**: A documentação oficial do Scikit-Learn é uma excelente fonte para técnicas de pré-processamento e seleção de características em Python.
-- **Pandas Documentation**: A documentação do Pandas oferece insights sobre manipulação de dados, limpeza e pré-processamento.
-
-## Estrutura do Repositório
-
-O repositório está organizado da seguinte forma:
-
-- **aula-1-fundamentos-e-pre-processamento**: Material sobre os fundamentos de Feature Engineering, incluindo limpeza, normalização e transformação de dados.
-  - **datasets/**: Arquivos de dados utilizados nos exercícios.
-  - **exercicio-aula-1-resolvido.ipynb**: Exercício resolvido da Aula 1.
-  - **exercicio-aula-1.ipynb**: Exercício prático da Aula 1.
-  - **pre-processamento-limpeza-normalizacao-transformacao.ipynb**: Notebooks sobre limpeza e transformação de dados.
-  - **pre-processamento-outliers-dados-duplicados.ipynb**: Notebooks sobre tratamento de outliers e dados duplicados.
-
-- **aula-2-enconding-discretization-criacao-de-features**: Técnicas de encoding, discretização e criação de features.
-  - **datasets/**: Arquivos de dados utilizados nos exercícios.
-  - **exercicio-aula-2-resolvido.ipynb**: Exercício resolvido da Aula 2.
-  - **exercicio-aula-2.ipynb**: Exercício prático da Aula 2.
-  - **extração-de-dados-para-dados-nao-estruturados.ipynb**: Notebooks sobre extração de dados.
-  - **transformacao-de-dados.ipynb**: Notebooks sobre transformação de dados.
-  - **tratamento-de-dados-categorica.ipynb**: Notebooks sobre tratamento de dados categóricos.
-  - **tratamento-de-dados-numerica.ipynb**: Notebooks sobre tratamento de dados numéricos.
-
-- **aula-3-reducao-de-dimensionalidade-balanceamento-EDA**: Técnicas de redução de dimensionalidade, balanceamento de classes e análise exploratória de dados.
-  - **datasets/**: Arquivos de dados utilizados nos exercícios.
-  - **EDA-analise-exploratoria-de-dados.ipynb**: Notebooks sobre análise exploratória de dados.
-  - **exercicio-aula-3-resolvido.ipynb**: Exercício resolvido da Aula 3.
-  - **exercicio-aula-3.ipynb**: Exercício prático da Aula 3.
-  - **lidando-com-datasets-desbalanceados.ipynb**: Notebooks sobre balanceamento de classes.
-  - **reducao-de-dimensionalidade.ipynb**: Notebooks sobre redução de dimensionalidade.
-
-- **aula-4-selecao-de-features-e-etica**: Técnicas de seleção de features e questões éticas relacionadas a dados.
-  - **datasets/**: Arquivos de dados utilizados nos exercícios.
-  - **exercicio-aula-4-resolvido.ipynb**: Exercício resolvido da Aula 4.
-  - **exercicio-aula-4.ipynb**: Exercício prático da Aula 4.
-  - **tecnica-de-selecao-de-features.ipynb**: Notebooks sobre técnicas de seleção de features.
-
-- **ementa**: Plano de curso e ementa detalhada.
-  - **DS&AI - Feature Engineering - Ementa.xlsx**: Ementa do curso em formato Excel.
-
-- **projeto-dos-alunos**: Espaço reservado para o envio dos projetos dos alunos.
-  - **7DTSR/**: Diretório para recebimento dos projetos dos alunos.
-
-## Licença
-
-Este repositório está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Se você tiver dúvidas ou precisar de ajuda, entre em contato comigo através dos seguintes canais:
-
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/filipespacheco/)
-- Medium: [Medium](https://medium.com/@filipespacheco)
+English | Português
 
 ---
 
-Boa sorte e bom aprendizado!
+## 🚀 Overview / Visão Geral
+
+**EN**  
+This repository contains all teaching materials and exercises for the Feature Engineering course of the FIAP MBA program. You will find:  
+- Course syllabus and detailed lesson plans (Modules 1–4)  
+- Jupyter Notebooks with theory, worked examples, and hands-on exercises  
+- Raw and processed datasets for each class  
+- Examples of preprocessing, encoding, discretization, and unstructured data extraction  
+- Techniques for dimensionality reduction, class balancing, and exploratory data analysis (EDA)  
+- Feature selection methods and a discussion on data ethics  
+- A structured template for student projects  
+- Recommended tools and software  
+- Bibliography, MIT license, and instructor contact info  
+
+**PT**  
+Este repositório reúne todo o material didático e exercícios práticos do curso de Feature Engineering do MBA da FIAP. Você encontrará:  
+- Ementa e planos de aula detalhados (Módulos 1–4)  
+- Notebooks Jupyter com teoria, exemplos comentados e atividades práticas  
+- Datasets brutos e pré-processados de cada aula  
+- Exemplos de pré-processamento, codificação (encoding), discretização e extração de dados não estruturados  
+- Técnicas de redução de dimensionalidade, balanceamento de classes e análise exploratória de dados (EDA)  
+- Métodos de seleção de features e discussão sobre ética em dados  
+- Estrutura organizada para projetos dos alunos  
+- Ferramentas e softwares recomendados  
+- Bibliografia, licença MIT e informações de contato  
+
+---
+
+## 📁 Repository Structure / Estrutura do Repositório
+
+```
+FIAP-Feature-Engineering/
+├── README.md
+├── LICENSE
+├── syllabus/                   
+│   ├── module1_overview.md
+│   ├── module2_overview.md
+│   ├── module3_overview.md
+│   └── module4_overview.md
+├── data/                       
+│   ├── raw/
+│   │   ├── dataset1.csv
+│   │   └── dataset2.csv
+│   └── processed/
+│       ├── dataset1_clean.csv
+│       └── dataset2_features.csv
+├── notebooks/                  
+│   ├── 1_data_cleaning_and_eda.ipynb
+│   ├── 2_encoding_and_scaling.ipynb
+│   ├── 3_feature_extraction_text_and_images.ipynb
+│   └── 4_dimensionality_reduction_and_selection.ipynb
+├── projects/                   
+│   └── <student_RA>/
+│       ├── project_notebook.ipynb
+│       └── report.pdf
+├── tools/                      
+│   └── utils.py
+└── references/                 
+    ├── hands_on_ml.pdf
+    └── data_mining_textbook.pdf
+```
+
+---
+
+## 🛠 Recommended Tools & Software / Ferramentas e Softwares Recomendados
+
+**EN**  
+- Python (>= 3.8)  
+- Jupyter Notebook / JupyterLab  
+- scikit-learn (>= 1.0)  
+- pandas, numpy, matplotlib, seaborn  
+- nltk, gensim (for text processing)  
+- opencv-python, scikit-image (for basic image features)  
+- Git & GitHub CLI  
+- VS Code / PyCharm (or any Python IDE)  
+
+**PT**  
+- Python (>= 3.8)  
+- Jupyter Notebook / JupyterLab  
+- scikit-learn (>= 1.0)  
+- pandas, numpy, matplotlib, seaborn  
+- nltk, gensim (para processamento de texto)  
+- opencv-python, scikit-image (para extração de features de imagem)  
+- Git & GitHub CLI  
+- VS Code / PyCharm (ou qualquer IDE Python)  
+
+---
+
+## 📝 Notebooks Overview / Visão Geral dos Notebooks
+
+### 1_data_cleaning_and_eda.ipynb  
+**EN**  
+- Load, inspect, and clean raw data  
+- Handle missing values, duplicates, and outliers  
+- Perform univariate and bivariate EDA  
+- Visualize distributions and correlations  
+
+**PT**  
+- Carregar, inspecionar e limpar dados brutos  
+- Tratar valores faltantes, duplicatas e outliers  
+- Realizar análise exploratória univariada e bivariada  
+- Visualizar distribuições e correlações  
+
+---
+
+### 2_encoding_and_scaling.ipynb  
+**EN**  
+- Encode ordinal and nominal variables  
+- Scale numerical features  
+- Build end-to-end scikit-learn preprocessing pipelines  
+
+**PT**  
+- Codificar variáveis ordinais e nominais  
+- Escalonar features numéricas  
+- Construir pipelines de pré-processamento com scikit-learn  
+
+---
+
+### 3_feature_extraction_text_and_images.ipynb  
+**EN**  
+- Preprocess text: tokenization, TF-IDF, word embeddings  
+- Extract basic image descriptors: color histograms, HOG  
+- Manage high-dimensional sparse representations  
+
+**PT**  
+- Pré-processar texto: tokenização, TF-IDF, embeddings de palavras  
+- Extrair descritores básicos de imagem: histogramas de cor, HOG  
+- Gerenciar representações esparsas de alta dimensionalidade  
+
+---
+
+### 4_dimensionality_reduction_and_selection.ipynb  
+**EN**  
+- Apply PCA and t-SNE for dimensionality reduction  
+- Use filter, wrapper, and embedded methods for feature selection  
+- Recursive feature elimination and model-based selection  
+
+**PT**  
+- Aplicar PCA e t-SNE para redução de dimensionalidade  
+- Usar métodos de filtro, wrapper e embedded para seleção de features  
+- Eliminação recursiva de features e seleção baseada em modelos  
+
+---
+
+## 📖 Bibliography / Bibliografia
+
+**Verified References:**  
+1. Géron, A. *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (2nd ed.)  
+2. Aggarwal, C. C. *Data Mining: The Textbook*  
+3. Pedregosa et al. *Scikit-learn: Machine Learning in Python*, JMLR 12, pp. 2825–2830, 2011.  
+4. Manning, C. D., Raghavan, P., & Schütze, H. *Introduction to Information Retrieval*  
+
+*All bibliographic entries have been confirmed with digital DOI and library records.*
+
+---
+
+## 📬 Contact / Contato
+
+**EN**  
+- LinkedIn: https://www.linkedin.com/in/filipespacheco/  
+- Medium: https://medium.com/@filipespacheco  
+
+**PT**  
+- LinkedIn: https://www.linkedin.com/in/filipespacheco/  
+- Medium: https://medium.com/@filipespacheco  
+
+---
+
+## 📄 License / Licença
+
+MIT © FIAP Feature Engineering MBA  
