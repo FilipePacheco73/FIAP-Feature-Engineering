@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 12" width="24" height="12">
+  <!-- Blue background -->
+  <rect width="24" height="12" fill="#012169"/>
+  <!-- White diagonals -->
+  <path d="M0 0 L24 12 M24 0 L0 12" stroke="white" stroke-width="1.6"/>
+  <!-- Red diagonals -->
+  <path d="M0 0 L24 12 M24 0 L0 12" stroke="#C8102E" stroke-width="1"/>
+  <!-- White cross -->
+  <path d="M12 0 V12 M0 6 H24" stroke="white" stroke-width="2"/>
+  <!-- Red cross -->
+  <path d="M12 0 V12 M0 6 H24" stroke="#C8102E" stroke-width="1.2"/>
+</svg>

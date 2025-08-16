@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 17" width="24" height="17">
+  <!-- Green background -->
+  <rect width="24" height="17" fill="#009639"/>
+  <!-- Yellow diamond -->
+  <path d="M12 2 L22 8.5 L12 15 L2 8.5 Z" fill="#FEDF00"/>
+  <!-- Blue circle -->
+  <circle cx="12" cy="8.5" r="3.5" fill="#002776"/>
+  <!-- Stars representation -->
+  <text x="12" y="10" font-family="Arial" font-size="2" fill="white" text-anchor="middle">★</text>
+</svg>
